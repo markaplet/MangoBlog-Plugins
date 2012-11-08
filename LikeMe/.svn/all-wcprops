@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pdg_mangodev/!svn/ver/1/components/plugins/user/LikeMe
+END
+BasePlugin.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pdg_mangodev/!svn/ver/1/components/plugins/user/LikeMe/BasePlugin.cfc
+END
+Handler.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pdg_mangodev/!svn/ver/1/components/plugins/user/LikeMe/Handler.cfc
+END
+plugin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pdg_mangodev/!svn/ver/1/components/plugins/user/LikeMe/plugin.xml
+END

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.visual28.mango.plugins.unitpngfix" name="Unit PNG Fix" version="0.1" provider-name="visual28" class="unitpngfix.Handler">
+<description><![CDATA[ This plugin fixes the poorly supported PNG files in IE6 by using <a href="http://labs.unitinteractive.com/unitpngfix.php">Unit Interactives unitpngfix.js</a>. Now only if it could banish IE6 into the depts of hell that would most awesome.<br /><br />
+		Unit PNG Fix will, by default, run automatically on all pngs on the page. If you wish, you can force the script to only fix specific elements by adding the class "<strong>unitPng</strong>" to those elements. This will cause only those specified elements to be fixed, and may help you work around any layout issues that the Unit PNG Fix may cause by default. <br /><br />
+		Plugin Written By: <a href="http://www.visual28.com">Mark Aplet</a><br/>
+		Find the latest version at: <a href="http://www.visual28.com/page/projects">Visual28</a> ]]></description>
+<requiresVersion match="greaterOrEqual">1.2.2</requiresVersion>
+  <listens>
+	<event name="beforeHtmlHeadEnd" type="synch" priority="5" />
+  </listens>
+  
+  <assets>
+		<asset file="assets/unitpngfix.js" />
+		<asset file="assets/clear.gif" />
+	</assets>
+</plugin>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.visual28.mango.plugins.juitter" name="Juitter" version="0.1" provider-name="visual28" class="juitter.Handler">
+	<description>
+		<![CDATA[
+		Adds support for <a href="http://juitter.com">Juitter</a> widget.<br />
+		Mango Plugin by <a href="http://www.visual28.com/articles/juitter">Mark Aplet</a><br /><br />
+		REQUIRES - <strong>jQuery</strong>: It's recommended that you install the <a href="http://sebduggan.com/posts/jquery-plugin-for-mango">jQuery plugin by Seb Duggan</a>.
+		]]>
+	</description>
+
+	<requiresVersion match="greaterOrEqual">1.3</requiresVersion>
+	
+	<listens>
+		<event name="getPods" type="synch" priority="5" />
+		<event name="beforeHtmlHeadEnd" type="synch" priority="5" />
+		<event name="getPodsList" type="synch" priority="1" />
+		<event name="settingsNav" type="synch" priority="5" />
+		<event name="showJuitterSettings" type="synch" priority="5" />
+		<event name="beforePostContentEnd" type="synch" priority="5" />
+	</listens>
+	
+	<assets>
+		<asset file="assets/jquery.juitter.js" />
+	</assets>
+</plugin>

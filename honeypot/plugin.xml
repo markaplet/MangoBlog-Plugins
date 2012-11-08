@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.visual28.mango.plugins.honeypot" name="Project Honeypot" version="0.1" provider-name="visual28" class="honeypot.Handler">
+<description><![CDATA[ You can join the fight to help identifying spammers and the spambots by installing the <a href="http://www.projecthoneypot.org?rf=60023">Project Honey Pot</a> system on your website. It's free, it's easy to do, and your helping to rid the internet of unwanted pests.<br/><br/>
+		Written By: <a href="http://www.visual28.com">Mark Aplet</a><br/>
+		Find the latest version at: <a href="http://www.visual28.com/page/projects">Visual28</a>
+ ]]></description>
+<requiresVersion match="greaterOrEqual">1.2.2</requiresVersion>
+  <listens>
+  	<event name="getPods" type="synch" priority="5" />
+	<event name="getPodsList" type="synch" priority="1" />
+	<event name="beforeHtmlBodyEnd" type="synch" priority="5" />
+	<event name="settingsNav" type="synch" priority="5" />
+  	<event name="showHoneypotSettings" type="synch" priority="5" />
+  </listens>
+  
+  <assets>
+		<asset file="assets/mini_phpot_link.gif" />
+		<asset file="assets/project_honey_pot_button.gif" />
+	</assets>
+</plugin>

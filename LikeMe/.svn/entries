@@ -1,0 +1,55 @@
+8
+
+dir
+1
+https://pdg.repositoryhosting.com/svn/pdg_mangodev/components/plugins/user/LikeMe
+https://pdg.repositoryhosting.com/svn/pdg_mangodev
+
+
+
+2010-09-16T21:21:35.129126Z
+1
+markaplet
+
+
+svn:special svn:externals svn:needs-lock
+
+BasePlugin.cfc
+file
+
+
+
+
+2010-09-13T19:48:00.000000Z
+bbb203b854f170e435f1d67ad8162c6a
+2010-09-16T21:21:35.129126Z
+1
+markaplet
+
+Handler.cfc
+file
+
+
+
+
+2010-09-13T20:00:00.000000Z
+f64b3a0604f2416682740ff8db491f91
+2010-09-16T21:21:35.129126Z
+1
+markaplet
+
+admin
+dir
+
+plugin.xml
+file
+
+
+
+
+2010-09-16T22:11:34.000000Z
+147c68ab73c982491fd8d848e7de86e3
+2010-09-16T21:21:35.129126Z
+1
+markaplet
+

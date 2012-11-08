@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.visual28.mango.plugins.flickrPics" name="flickr Pics" version="1.3" provider-name="visual28" class="flickrPics.Handler">
+<description><![CDATA[ Adds your <a href="http://www.flickr.com/">flicker photos</a> to the sidebar. ]]></description>
+<requiresVersion match="greaterOrEqual">1.2.2</requiresVersion>
+  <listens>
+	<event name="getPods" type="synch" priority="5" />
+	<event name="getPodsList" type="synch" priority="1" />
+	<event name="settingsNav" type="synch" priority="5" />
+  	<event name="showFlickrSettings" type="synch" priority="5" />
+  </listens>
+</plugin>

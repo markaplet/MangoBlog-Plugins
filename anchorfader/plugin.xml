@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.visual28.mango.plugins.anchorfader" name="Anchor Fader" version="0.1" provider-name="visual28" class="anchorfader.Handler">
+<description><![CDATA[ I have no idea why you would want this plugin but maybe you can find some cool creative thing to do with it. It basically loops over links and makes them fade out. See a demo here at <a href="http://www.jankoatwarpspeed.com/examples/fade-colors/"JankoAtWarpSpeed</a><br /><br />
+		
+		REQUIRES - <strong>jQuery</strong>: It's recommended that you install the <a href="http://sebduggan.com/posts/jquery-plugin-for-mango">jQuery plugin by Seb Duggan</a>.<br />
+		Plugin Written By: <a href="http://www.visual28.com">Mark Aplet</a><br/>
+		Find the latest version at: <a href="http://www.visual28.com/page/projects">Visual28</a> ]]></description>
+<requiresVersion match="greaterOrEqual">1.3</requiresVersion>
+  <listens>
+	<event name="beforeHtmlHeadEnd" type="synch" priority="5" />
+	<event name="settingsNav" type="synch" priority="5" />
+	<event name="showAnchorFaderSettings" type="synch" priority="5" />
+  </listens>
+</plugin>

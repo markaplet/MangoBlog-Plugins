@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.visual28.mango.plugins.netflix" name="Netflix RSS Feeds" version="1.0" provider-name="visual28" class="netflix.Handler">
+<description><![CDATA[ Adds a <a href="http://www.netflix.com/RSSFeeds?lnkctr=mfRSS">Netflix RSS Feed</a> to your sidebar<br/><br/>
+		Written By: <a href="http://www.visual28.com">Mark Aplet</a><br/>
+		Find the latest version at: <a href="http://www.visual28.com/page/projects">Visual28</a>
+ ]]></description>
+<requiresVersion match="greaterOrEqual">1.2.2</requiresVersion>
+  <listens>
+	<event name="getPods" type="synch" priority="5" />
+	<event name="getPodsList" type="synch" priority="1" />
+	<event name="settingsNav" type="synch" priority="5" />
+  	<event name="showNetflixSettings" type="synch" priority="5" />
+  </listens>
+</plugin>

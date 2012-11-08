@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.visual28.mango.plugins.lightbox2" name="Lightbox2" version="1.1" provider-name="Mark Aplet" class="lightbox2.Handler">
+<description><![CDATA[ Adds <a href="http://www.huddletogether.com/projects/lightbox2/">Lightbox2</a> support ]]></description>
+<requiresVersion match="greaterOrEqual">0.2</requiresVersion>
+  
+	<listens>
+	<event name="beforeHtmlHeadEnd" type="synch" priority="5" />
+  </listens>
+	
+</plugin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.visual28.mango.plugins.sIFR3" name="sIFR3" version="1.0" provider-name="visual28" class="sIFR3.Handler">
+	<description>
+		<![CDATA[
+		Adds <a href="http://wiki.novemberborn.net/sifr3/">sIFR3 Font Replacement</a> support to your theme. This plugin is experimental and under development. Advanced styling is not working reliably. 
+		]]>
+	</description>
+
+	<requiresVersion match="greaterOrEqual">1.3</requiresVersion>
+	
+	<listens>
+		<event name="beforeHtmlHeadEnd" type="synch" priority="5" />
+		<event name="settingsNav" type="synch" priority="5" />
+		<event name="showSIFR3Settings" type="synch" priority="5" />
+	</listens>
+	
+	<assets>
+		<asset file="assets/sifr.js" />
+		<asset file="assets/sifr.css" />
+		<asset file="assets/gipsiero.swf" />
+	</assets>
+</plugin>

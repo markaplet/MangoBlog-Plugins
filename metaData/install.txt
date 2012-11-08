@@ -1,0 +1,9 @@
+To install metaData, simply copy the metaData folder into the folder:
+
+MangoBlog/components/plugins/user
+
+Then log into your administrator, go into Add-ons, and Activate metaData.
+
+Once active, metaData adds a link to the settings page titled "metaData" 
+
+Currently metaData only accepts keyword metadata. Later versions will add additional support for other types of meta data.

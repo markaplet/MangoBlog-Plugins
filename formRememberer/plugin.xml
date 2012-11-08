@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.asfusion.mango.plugins.formRememberer" name="Form Rememberer" version="1.2" provider-name="AsFusion" class="formRememberer.PluginHandler">
+<description>
+	<![CDATA[
+	Fills comment forms with user information (stores info in a cookie)<br />
+	UPDATED: Fixes display errors where check boxes do not line up properly and shows an extra space above field.
+	]]>
+</description>
+<requiresVersion match="greaterOrEqual">0.2</requiresVersion>
+  <listens>
+  	<event name="beforeIndexTemplate" type="synch" priority="5" />
+	<event name="beforeArchivesTemplate" type="synch" priority="5" />
+	<event name="beforeOuputTemplate" type="synch" priority="5" />
+	<event name="beforePageTemplate" type="synch" priority="5" />
+	<event name="beforePostTemplate" type="synch" priority="5" />	
+	<event name="beforeCommentAdd" type="synch" priority="5" />
+	<event name="beforeCommentFormEnd" type="synch" priority="5" />
+  </listens>
+</plugin>
